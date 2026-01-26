@@ -180,3 +180,66 @@ a:focus {
         flex-direction: column;
     }
 }
+
+.card {
+    background-color: var(--card);
+    border-radius: 30px;
+    box-shadow: var(--card-shadow);
+    padding: 1.25rem;
+}
+
+.tree ul {
+    list-style: none;
+    padding-left: 1.2rem;
+    border-left: 3px dashed #d2d9e6;
+    margin: 0.5rem 0;
+}
+
+.tree li {
+    position: relative;
+    margin: 0.5rem 0;
+    padding-left: 0.6rem;
+    color: var(--muted);
+}
+
+.tree li::before {
+    content: " ";
+    position: absolute;
+    left: -3px;
+    top: 0.8em;
+    border-radius: 3px;
+    width: 0.7rem;
+    height: 3px;
+    background: #d2d9e6;
+}
+
+.badge {
+    display: inline-block;
+    padding: 0.2rem 0.55rem;
+    border-radius: 99px;
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    font-weight: 700;
+    margin-left: 0.5rem;
+}
+
+.badge--art {
+    background: #ffe9ef;
+    color: #a2002d;
+}
+
+.badge--code {
+    background: #eaf0ff;
+    color: #2436c9;
+}
+
+
+.badge--game {
+    background: #e9fff7;
+    color: #097a63;
+}
+
+.badge--design {
+    background: #fff3d6;
+    color: #9a5b00;
+}
